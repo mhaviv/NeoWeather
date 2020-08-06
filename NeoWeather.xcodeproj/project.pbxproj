@@ -15,9 +15,15 @@
 		CCEE328924DBAF17005B6C76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEE328824DBAF17005B6C76 /* Preview Assets.xcassets */; };
 		CCEE328C24DBAF17005B6C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEE328A24DBAF17005B6C76 /* LaunchScreen.storyboard */; };
 		CCEE32A724DBB5B6005B6C76 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE32A624DBB5B6005B6C76 /* Environment.swift */; };
+		FF2D082C713506C4968BE904 /* Pods_NeoWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6766AF8EC0CDADA122C6C24 /* Pods_NeoWeather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5543471FFB863164C634EA64 /* Pods-NeoWeather.release (development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoWeather.release (development.xcconfig"; path = "Target Support Files/Pods-NeoWeather/Pods-NeoWeather.release (development.xcconfig"; sourceTree = "<group>"; };
+		6D7C57B6A76F954862929AB5 /* Pods-NeoWeather.release (staging).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoWeather.release (staging).xcconfig"; path = "Target Support Files/Pods-NeoWeather/Pods-NeoWeather.release (staging).xcconfig"; sourceTree = "<group>"; };
+		7866A5A2C5CEC7AC6E044F43 /* Pods-NeoWeather.debug (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoWeather.debug (development).xcconfig"; path = "Target Support Files/Pods-NeoWeather/Pods-NeoWeather.debug (development).xcconfig"; sourceTree = "<group>"; };
+		837830A000B45E3583407821 /* Pods-NeoWeather.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoWeather.release (production).xcconfig"; path = "Target Support Files/Pods-NeoWeather/Pods-NeoWeather.release (production).xcconfig"; sourceTree = "<group>"; };
+		C6766AF8EC0CDADA122C6C24 /* Pods_NeoWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEE327924DBAF12005B6C76 /* NeoWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEE327C24DBAF12005B6C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCEE327E24DBAF12005B6C76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +37,8 @@
 		CCEE32A424DBB2FA005B6C76 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		CCEE32A524DBB307005B6C76 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		CCEE32A624DBB5B6005B6C76 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		CEE0BE0790569E2AAAAD0CBF /* Pods-NeoWeather.debug (staging).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoWeather.debug (staging).xcconfig"; path = "Target Support Files/Pods-NeoWeather/Pods-NeoWeather.debug (staging).xcconfig"; sourceTree = "<group>"; };
+		E512025327B1F4497E45C3EB /* Pods-NeoWeather.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoWeather.debug (production).xcconfig"; path = "Target Support Files/Pods-NeoWeather/Pods-NeoWeather.debug (production).xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,16 +46,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2D082C713506C4968BE904 /* Pods_NeoWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73AE3DCC317C5185C6A0F89A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7866A5A2C5CEC7AC6E044F43 /* Pods-NeoWeather.debug (development).xcconfig */,
+				CEE0BE0790569E2AAAAD0CBF /* Pods-NeoWeather.debug (staging).xcconfig */,
+				E512025327B1F4497E45C3EB /* Pods-NeoWeather.debug (production).xcconfig */,
+				5543471FFB863164C634EA64 /* Pods-NeoWeather.release (development.xcconfig */,
+				6D7C57B6A76F954862929AB5 /* Pods-NeoWeather.release (staging).xcconfig */,
+				837830A000B45E3583407821 /* Pods-NeoWeather.release (production).xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7C5CF55F91BCA5AB0E3065F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6766AF8EC0CDADA122C6C24 /* Pods_NeoWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CCEE327024DBAF12005B6C76 = {
 			isa = PBXGroup;
 			children = (
 				CCEE327B24DBAF12005B6C76 /* NeoWeather */,
+				73AE3DCC317C5185C6A0F89A /* Pods */,
+				C7C5CF55F91BCA5AB0E3065F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCEE329024DBAF17005B6C76 /* Build configuration list for PBXNativeTarget "NeoWeather" */;
 			buildPhases = (
+				B3902B77D998641B5A96A612 /* [CP] Check Pods Manifest.lock */,
 				CCEE327524DBAF12005B6C76 /* Sources */,
 				CCEE327624DBAF12005B6C76 /* Frameworks */,
 				CCEE327724DBAF12005B6C76 /* Resources */,
@@ -209,6 +243,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3902B77D998641B5A96A612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoWeather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCEE327524DBAF12005B6C76 /* Sources */ = {
